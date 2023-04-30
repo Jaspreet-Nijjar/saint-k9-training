@@ -1,0 +1,16 @@
+.about-container {
+  text-align: center;
+  margin: 60px auto;
+  padding: 20px 50px;
+  scroll-margin-top: 100px;
+}
+
+.about-container .enquire-btn {
+  margin: 30px auto;
+}
+
+p {
+  line-height: 25px;
+  margin: 25px auto;
+  max-width: 80%;
+}
