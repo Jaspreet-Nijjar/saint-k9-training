@@ -93,3 +93,7 @@ textarea {
   padding: 15px 10px;
   border: none;
 }
+
+.grid-input {
+  margin-top: 5px;
+}

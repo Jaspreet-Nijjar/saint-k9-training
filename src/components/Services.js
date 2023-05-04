@@ -7,9 +7,7 @@ export const Services = () => {
     <div id="services">
       <div className="services-content">
         <h1>Services available</h1>
-        <p className="content-text">
-          Lorem ipsum dolor sit amet, consectetur adipis elit
-        </p>
+
         <EnquireButton />
       </div>
 

@@ -25,10 +25,10 @@ export const Contact = () => {
         </div>
 
         <form>
-          <label className="input-container">Your full name*</label>
+          <label className="input-container">Full name*</label>
           <input type="text" placeholder="Jane Doe" className="input" />
 
-          <label className="input-container">Your email address*</label>
+          <label className="input-container">Email address*</label>
           <input
             type="email"
             placeholder="jane@emailaddress.com"
@@ -38,7 +38,7 @@ export const Contact = () => {
 
           <div className="form-grid">
             <div className="grid-input">
-              <label className="input-container">Your contact number*</label>
+              <label className="input-container">Contact number*</label>
               <input
                 type="tel"
                 maxLength="11"
@@ -49,7 +49,7 @@ export const Contact = () => {
             </div>
 
             <div className="grid-input">
-              <label className="input-container">Your location*</label>
+              <label className="input-container">Location*</label>
               <input
                 type="text"
                 placeholder="Harlow"

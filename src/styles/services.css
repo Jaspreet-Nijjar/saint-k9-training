@@ -24,7 +24,6 @@
 }
 
 .services-container {
-  width: 450px;
   max-width: 90%;
   display: grid;
   row-gap: 10px;

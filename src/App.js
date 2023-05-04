@@ -1,6 +1,6 @@
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
-import { Navbar } from './components/Navbar';
+// import { Navbar } from './components/Navbar';
 import { Services } from './components/Services';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
@@ -11,10 +11,10 @@ import { Reviews } from './components/Reviews';
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <Services />
-      <Reviews />
+      {/* <Reviews /> */}
       <About />
       <ImageSlider />
       <FAQs />
