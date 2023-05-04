@@ -59,10 +59,17 @@ p {
 @media screen and (min-width: 600px) {
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: 1fr 1fr;
   }
 
   .services-container {
-    grid-template-rows: 1fr 30px 200px;
+    grid-template-rows: 200px 30px 200px;
+    padding: 15px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services-text {
+    max-width: 60%;
   }
 }
