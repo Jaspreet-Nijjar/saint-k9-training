@@ -26,10 +26,15 @@ export const Contact = () => {
 
         <form>
           <label className="input-container">Your full name*</label>
-          <input type="text" placeholder="Jane Doe" />
+          <input type="text" placeholder="Jane Doe" className="input" />
 
           <label className="input-container">Your email address*</label>
-          <input type="email" placeholder="jane@emailaddress.com" required />
+          <input
+            type="email"
+            placeholder="jane@emailaddress.com"
+            required
+            className="input"
+          />
 
           <div className="form-grid">
             <div className="grid-input">
@@ -39,22 +44,38 @@ export const Contact = () => {
                 maxLength="11"
                 placeholder="07712345678"
                 required
+                className="input"
               />
             </div>
 
             <div className="grid-input">
               <label className="input-container">Your location*</label>
-              <input type="text" placeholder="Harlow" required />
+              <input
+                type="text"
+                placeholder="Harlow"
+                required
+                className="input"
+              />
             </div>
 
             <div className="grid-input">
               <label className="input-container">Your dog's breed*</label>
-              <input type="text" placeholder="Crossbreed" required />
+              <input
+                type="text"
+                placeholder="Crossbreed"
+                required
+                className="input"
+              />
             </div>
 
             <div className="grid-input">
               <label className="input-container">Your dog's age*</label>
-              <input type="text" placeholder="1 year" required />
+              <input
+                type="text"
+                placeholder="1 year"
+                required
+                className="input"
+              />
             </div>
           </div>
 
@@ -64,6 +85,7 @@ export const Contact = () => {
             cols="30"
             rows="5"
             required
+            className="input"
           ></textarea>
           <button className="contact-btn">Send message</button>
         </form>

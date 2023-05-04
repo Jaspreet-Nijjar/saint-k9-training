@@ -40,14 +40,6 @@
   padding-bottom: 16px;
 }
 
-.input-container,
-input {
-  border-radius: 5px;
-  width: 100%;
-  padding: 15px 3px;
-  border: none;
-}
-
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -93,4 +85,11 @@ input {
 textarea {
   width: 100%;
   border-radius: 5px;
+}
+
+.input {
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 10px;
+  border: none;
 }
