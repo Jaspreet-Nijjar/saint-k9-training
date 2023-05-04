@@ -59,10 +59,11 @@ h4 {
     object-fit: cover;
     background-repeat: no-repeat;
     filter: brightness(70%);
-    background-position: 0 100px;
     height: 100vh;
     padding-top: 80px;
     background-position: 0 100px;
+    background-size: cover;
+    background-position: top center;
   }
 
   .hero-image img {
