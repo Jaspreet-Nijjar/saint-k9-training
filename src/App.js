@@ -13,8 +13,8 @@ function App() {
     <>
       {/* <Navbar /> */}
       {/* <Hero /> */}
-      <Services />
-      {/* <Reviews /> */}
+      {/* <Services /> */}
+      <Reviews />
       <About />
       <ImageSlider />
       <FAQs />

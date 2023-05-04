@@ -10,7 +10,7 @@ export const ReviewsData = [
       'Absolutely amazing, I fully trust Kate with Albert. His recall has improved...',
     name: 'Albert - Cavapoo',
     review:
-      'Absolutely amazing, I fully trust Kate with Albert. His recall has improved and his more of a pleasure to walk after Kate’s training with him. He loves his regular walks and training  with Kate, he comes back tired out and sleeps all afternoon. He loves Kate and is always so excited to see her. Best decision I’ve made having Kate as a regular part of his routine. Thank you',
+      'Absolutely amazing, I fully trust Kate with Albert. His recall has improved and his more of a pleasure to walk after Kate’s training with him. He loves his regular walks and training  with Kate, he comes back tired out and sleeps all afternoon. He loves Kate and is always so excited to see her. Best decision I’ve made having Kate as a regular part of his routine. Thank you!',
   },
 
   {
