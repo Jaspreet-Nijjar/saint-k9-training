@@ -13,8 +13,9 @@ export const Contact = () => {
       <div className="contact-container">
         <h1 className="contact-heading">Get in touch with Saint K9 Training</h1>
         <p className="contact-dates">Monday - Friday - 09:00 - 19:00</p>
-        <p className="contact-dates">Sunday - 09:00 - 13:00</p>
         <p className="contact-dates">Saturday - 09:00 - 15:00</p>
+        <p className="contact-dates">Sunday - 09:00 - 13:00</p>
+
         <div className="social-icons-contact">
           <FaWhatsapp size={45} className="icon-contact whatsapp" />
           <FaEnvelope size={30} className="icon-contact border" />
