@@ -23,8 +23,9 @@
 .item-container {
   border: 1px solid #796e95;
   border-radius: 5px;
-  margin: 30px 0;
+  margin: 30px auto;
   position: relative;
+  max-width: 90%;
 }
 
 .symbol {
